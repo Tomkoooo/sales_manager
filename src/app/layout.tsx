@@ -4,7 +4,6 @@ import { UserProvider } from "@/components/context/useUser";
 import Sidebar from "@/components/sidebar/sidebar";
 
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -12,6 +11,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="hu" data-theme="cupcake">
+      <link rel="shortcut icon" href="./image.svg" type="image/x-icon" />
+      <title>Sales Manager</title>
       <body>
         <UserProvider>{children}</UserProvider>
       </body>

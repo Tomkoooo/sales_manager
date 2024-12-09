@@ -72,7 +72,7 @@ const LoginPage: React.FC = () => {
                 <div className="card-body p-4">
                 <h2 className="card-title text-xl font-bold text-center mb-4 w-full flex justify-between">
                         <Image
-                            src="/image.svg"
+                            src="./image.svg"
                             width={48}
                             height={48}
                             alt="Logo"
